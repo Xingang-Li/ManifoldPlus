@@ -6,6 +6,8 @@ Advanced version of my previous Manifold algorithm from this [**repo**](https://
 ### Dependencies
 1. Eigen
 2. LibIGL
+3. Download the eigen and libigl to the 3rd_party folder (xl added)
+4. Install libigl and eigen using default setting, which should be installed under /usr/local/include (xl added)
 
 ### Installing prerequisites
 ```
@@ -17,7 +19,7 @@ git submodule update --init --recursive
 sh compile.sh
 sh examples.sh
 ```
-### examples
+### examples (xl added)
 ```
 ./build/manifold --input data/bathtub.obj --output results/bathtub_manifold.obj
 ./build/manifold --input data/bed.obj --output results/bed_manifold.obj
