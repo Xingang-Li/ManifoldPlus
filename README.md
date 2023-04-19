@@ -17,6 +17,11 @@ git submodule update --init --recursive
 sh compile.sh
 sh examples.sh
 ```
+### contents in examples.sh
+./build/ManifoldPlus --input data/bathtub.obj --output results/bathtub_manifold.obj
+./build/ManifoldPlus --input data/bed.obj --output results/bed_manifold.obj
+./build/ManifoldPlus --input data/chair.off --output results/chair_manifold.obj
+./build/ManifoldPlus --input data/table.off --output results/table_manifold.obj
 
 ### Build
 ```
